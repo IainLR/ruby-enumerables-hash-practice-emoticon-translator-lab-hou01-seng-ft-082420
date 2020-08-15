@@ -35,7 +35,7 @@ def get_english_meaning(file_path, emoticon)
       return key
     end 
   end
-  
+  return "Sorry, that emoticon was not found"
  #library.find{|key, hash| hash[:japanese] == emoticon}
 
  #library.key({:japanese => emoticon})
